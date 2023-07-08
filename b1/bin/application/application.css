@@ -1,0 +1,346 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.slider > .thumb,
+.slider > .thumb:hover,
+.slider:focused > .thumb{
+    -fx-background-color: transparent;
+    -fx-background-insets: 2 0 -23 0;
+    -fx-padding: 1 1 0 1;
+    -fx-background-radius: 0;
+}
+
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.triangle{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.triangle:hover{
+	-fx-background-color: #E5BFDB;
+}
+.triangle:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.triangle:pressed{
+	-fx-background-color: #ffe4e1;
+}
+ /* ********************************************************************** */
+.carre{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.carre:hover{
+	-fx-background-color: #E5BFDB;
+}
+.carre:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.carre:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.rectangle{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.rectangle:hover{
+	-fx-background-color: #E5BFDB;
+}
+.rectangle:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.rectangle:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.hexagone{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.hexagone:hover{
+	-fx-background-color: #E5BFDB;
+}
+.hexagone:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.hexagone:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.pentagone{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.pentagone:hover{
+	-fx-background-color: #E5BFDB;
+}
+.pentagone:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.pentagone:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.decagone{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.decagone:hover{
+	-fx-background-color: #E5BFDB;
+}
+.decagone:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.decagone:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.open{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.open:hover{
+	-fx-background-color: #E5BFDB;
+}
+.open:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.open:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.save{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.save:hover{
+	-fx-background-color: #E5BFDB;
+}
+.save:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.save:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.bib{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.bib:hover{
+	-fx-background-color: #E5BFDB;
+}
+.bib:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.bib:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.copier{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.copier:hover{
+	-fx-background-color: #E5BFDB;
+}
+.copier:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.copier:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.coller{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.coller:hover{
+	-fx-background-color: #E5BFDB;
+}
+.coller:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.coller:pressed{
+	-fx-background-color: #ffe4e1;
+}
+/* *********************************************************************** */
+.combine{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.combine:hover{
+	-fx-background-color: #E5BFDB;
+}
+.combine:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.combine:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.and{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.and:hover{
+	-fx-background-color: #E5BFDB;
+}
+.and:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.and:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.or{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.or:hover{
+	-fx-background-color: #E5BFDB;
+}
+.or:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.or:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.not{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.not:hover{
+	-fx-background-color: #E5BFDB;
+}
+.not:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.not:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.xor{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.xor:hover{
+	-fx-background-color: #E5BFDB;
+}
+.xor:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.xor:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.menu{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.menu:hover{
+	-fx-background-color: #E5BFDB;
+}
+.menu:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.menu:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.home{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.home:hover{
+	-fx-background-color: #E5BFDB;
+}
+.home:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.home:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.deplacement{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.deplacement:hover{
+	-fx-background-color: #E5BFDB;
+}
+.deplacement:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.deplacement:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+.rotation{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.rotation:hover{
+	-fx-background-color: #E5BFDB;
+}
+.rotation:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.rotation:pressed{
+	-fx-background-color: #ffe4e1;
+}
+
+
+/* *********************************************************************** */
+
+.select{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.select:hover{
+	-fx-background-color: #E5BFDB;
+}
+.select:focused{
+	-fx-background-color: #E5BFDB;
+	-fx-border-color: white;
+}
+
+.select:pressed{
+	-fx-background-color: #ffe4e1;
+}

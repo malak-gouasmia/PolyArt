@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" style="-fx-background-color: #9c03912e;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Page1Controller">
+   <children>
+      <MenuBar layoutX="68.0" layoutY="10.0" minHeight="25.0" minWidth="760.0" prefHeight="32.0" prefWidth="760.0" style="-fx-background-color: #9c029189;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="btn" layoutX="1107.0" layoutY="84.0" mnemonicParsing="false" onAction="#exit" prefHeight="32.0" prefWidth="32.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/Vector.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="1377.0" layoutY="30.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="0.0">
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/Group2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="1342.0" layoutY="20.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" AnchorPane.rightAnchor="79.0" AnchorPane.topAnchor="0.0">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/Group.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="E" layoutX="308.0" layoutY="347.0" mnemonicParsing="false" onAction="#enf" prefHeight="100.0" prefWidth="250.0" text="Enfant" textFill="#c72ac4" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="449.6">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Button>
+      <Button fx:id="A" layoutX="792.0" layoutY="389.0" mnemonicParsing="false" onAction="#ado" prefHeight="100.0" prefWidth="250.0" text="Adulte" textFill="#c72ac4" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="792.0">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Button>
+      <Text fill="#6e1976" layoutX="480.0" layoutY="270.02695312499833" strokeType="OUTSIDE" strokeWidth="0.0" text="POLY" textAlignment="CENTER" wrappingWidth="393.3365783691406" AnchorPane.bottomAnchor="572.9730468750017" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font size="150.0" />
+         </font>
+      </Text>
+      <Text fill="#ef5a8e" layoutX="803.0" layoutY="270.19999999999965" rotate="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ART" wrappingWidth="183.99996948242188" AnchorPane.bottomAnchor="595.8000000000004" AnchorPane.leftAnchor="803.0">
+         <font>
+            <Font size="90.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="391.0" fitWidth="633.0" layoutX="4.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+         <image>
+            <Image url="@../../pngpage1/Carré.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

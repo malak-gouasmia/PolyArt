@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HelpenfantCltr">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2324.0" prefWidth="720.0">
+         <children>
+            <Text layoutX="31.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Une fois dans la version enfant , plusieurs fonctionnalités sont à votre disposition :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="304.0" fitWidth="597.0" layoutX="80.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/child.png" />
+               </image>
+            </ImageView>
+            <Text fill="RED" layoutX="47.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1- Créer/Ajouter un polygone :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="303.0" fitWidth="529.0" layoutX="80.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/children.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="88.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allez dans la liste des polygones.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="295.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur l'icone correspondante au polygone de votre choix">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="47.0" layoutY="853.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2- Modifier la couleur d'un polygone :" AnchorPane.leftAnchor="47.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="889.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorsque vous créez un polygone , sa couleur est par defaut .... ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="918.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pour modifier sa couleur : cliquez sur  ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="47.0" layoutY="1057.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3- Déplacer un polygone :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="204.0" layoutY="1088.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sélectionnez le polygone que vous désirez décplace , puis cliquez sur">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Faites glisser le polygone vers sa destination et lâchez la souris à cet endroit.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="47.0" layoutY="1171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4-Rotationner/Tourner un polygone :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="47.0" layoutY="1611.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7-Copier/Coller :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sélectionnez le polygone que vous voulez copier et cliquez sur ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="30.0" fitWidth="81.0" layoutX="486.0" layoutY="1655.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/paste.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="81.0" layoutX="478.0" layoutY="1621.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/copier.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="514.0" layoutY="1641.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en haut de la fenetre">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Text layoutX="88.0" layoutY="1674.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allez ensuite là où vous voulez copier le polygone et cliquez sur">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="516.0" layoutY="1675.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en haut de la fenetre.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1706.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Une copie du polygone sera créée.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="47.0" layoutY="1463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6-Bibliothèque :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="30.0" fitWidth="81.0" layoutX="162.0" layoutY="1480.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/bib.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="202.0" layoutY="1500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en haut de la fenetre.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En cliquant dessus, une boîte de dialogue s’ouvre, comprenant des objets ,">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="choisissez un de votre choix pour le reconstruire ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1088.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="29.0" fitWidth="54.0" layoutX="161.0" layoutY="1069.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Capture%20d’écran%202021-07-17%20151110.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="74.0" layoutX="638.0" layoutY="1071.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/deplacer.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="113.0" layoutY="1207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sélectionnez le polygone que vous désirez décplace , puis cliquez sur" x="88.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="-3.0" layoutY="1238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Faites glisser le polygone vers sa destination et lâchez la souris à cet endroit." x="88.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="-3.0" layoutY="1207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur" x="88.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="29.0" fitWidth="54.0" layoutX="70.0" layoutY="1188.0" pickOnBounds="true" preserveRatio="true" x="88.0">
+               <image>
+                  <Image url="@../../pnga/Capture%20d’écran%202021-07-17%20151110.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="74.0" layoutX="645.0" layoutY="1770.0" pickOnBounds="true" preserveRatio="true" x="88.0">
+               <image>
+                  <Image url="@../../pnga/deplacer.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="34.0" layoutX="632.0" layoutY="1186.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%20(4).png" />
+               </image>
+            </ImageView>
+            <Text fill="RED" layoutX="47.0" layoutY="1290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5- Les opérations booléennes :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en haut de la page et choisissez une des opérations (or/and/not/xor) . ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Séléctionnez les 2 polygones sur lesquels vous voulez effectuer une opération comme suit, ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur  ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="199.0" layoutY="1346.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" séléctionnez le premier polygone , ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur  ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="204.0" layoutY="1381.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" séléctionnez le deuxième polygone , puis allez dans la liste des opérations  ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="26.0" fitWidth="39.0" layoutX="164.0" layoutY="1329.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Capture%20d’écran%202021-07-17%20151110.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="39.0" layoutX="164.0" layoutY="1362.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Capture%20d’écran%202021-07-17%20151110.png" />
+               </image>
+            </ImageView>
+            <Text layoutY="1365.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="RED" layoutX="47.0" layoutY="1752.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8-Sauvgarder votre travail/scene :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1788.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Cliquez sur le bouton">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="278.0" layoutY="1788.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en haut de la fenetre. ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="412.0" layoutY="1788.0" strokeType="OUTSIDE" strokeWidth="0.0" text="une boîte de dialogue Enregistrer sous s’ouvre. ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1820.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Parcourez l’arborescence jusqu’à un emplacement pratique sur votre ordinateur, ou utilisez ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1849.0" strokeType="OUTSIDE" strokeWidth="0.0" text="l’emplacement par défaut que l’application propose automatiquement.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1876.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Saisissez un nom pour le fichier de la scène dans le champ Nom du fichier et cliquez sur ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1899.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enregistrer.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1928.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La boîte de dialogue Enregistrer sous se referme et l’application enregistre le fichier à ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="1956.0" strokeType="OUTSIDE" strokeWidth="0.0" text="l’emplacement spécifié.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="241.0" layoutY="1772.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/save.png" />
+               </image>
+            </ImageView>
+            <Text fill="RED" layoutX="47.0" layoutY="2005.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9-Restaurer/Ouvrir une scene :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="2041.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pour ouvrir une scène existante, suivez les étapes ci-dessous :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="2067.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Cliquez sur">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="215.0" layoutY="2067.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en haut de la fenetre. La boîte de dialogue Ouvrir une scène/fichier s’ouvre..">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="2097.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Parcourez l’arborescence jusqu’à l’emplacement où la scène est enregistrée. ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="2125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Cochez la scène que vous souhaitez ouvrir, puis cliquez sur Oui.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="179.0" layoutY="2047.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/Folder.png" />
+               </image>
+            </ImageView>
+            <Text fill="RED" layoutX="47.0" layoutY="2173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10-Revenir à la page de démarrage :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="201.0" layoutY="2202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en haut de la fenetre. ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="2202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="30.0" fitWidth="80.0" layoutX="161.0" layoutY="2181.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Home.png" />
+               </image>
+            </ImageView>
+            <Text fill="RED" layoutX="47.0" layoutY="2252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11-Fermer la fenetre :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="88.0" layoutY="2282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliquez sur ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="42.0" fitWidth="27.0" layoutX="165.0" layoutY="2264.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/fi.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="85.0" layoutY="955.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1- Dans la palette des couleurs à droite ,sélectionnez une couleur de votre choix .  ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="378.0" layoutY="919.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" séléctionnez le polygone , puis soit : ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="41.0" fitWidth="65.0" layoutX="321.0" layoutY="893.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Capture%20d’écran%202021-07-17%20151110.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="85.0" layoutY="985.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2- Cliquez sur">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="22.0" fitWidth="74.0" layoutX="176.0" layoutY="968.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/cl.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="254.0" layoutY="984.0" strokeType="OUTSIDE" strokeWidth="0.0" text="et choisissez le degré de couleur puis cliquez sur ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="23.0" fitWidth="80.0" layoutX="560.0" layoutY="968.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/colorer.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scene1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="852.0" prefWidth="1403.0" style="-fx-background-color: #E5E5E5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdulteController">
+   
+    <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="128.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../pnga/Ellipse%202.png" />
+         </image>
+      </ImageView>
+      <MenuBar layoutX="-41.0" layoutY="-11.0" prefHeight="50.0" prefWidth="1445.0" style="-fx-background-color: rgba(18, 0, 120, 0.54);" AnchorPane.leftAnchor="-41.0" AnchorPane.rightAnchor="-1.0" />
+      <Button layoutX="1238.6" layoutY="-2.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="34.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="-2.0">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Group1%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e5e5" height="394.0" layoutX="32.0" layoutY="292.0" stroke="BLACK" strokeType="INSIDE" width="101.0" />
+      <Button layoutX="156.0" layoutY="-2.0" mnemonicParsing="false" onAction="#ouvrir" prefHeight="34.0" prefWidth="32.0">
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Folder%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="107.0" mnemonicParsing="false" onAction="#save" prefHeight="19.0" prefWidth="44.0">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/noun_Save_3342112%201.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e5e5" height="87.0" layoutX="498.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="415.0" />
+      <Button layoutX="776.0" layoutY="90.0" mnemonicParsing="false" onAction="#creer5" prefHeight="48.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%204%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="705.0" layoutY="89.0" mnemonicParsing="false" onAction="#creer6" prefHeight="54.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%20(5).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="573.0" layoutY="89.0" mnemonicParsing="false" onAction="#creer4" prefHeight="52.0" prefWidth="55.0">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Rectangle%2014%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="645.0" layoutY="89.0" mnemonicParsing="false" onAction="#creerRectangle" prefHeight="53.0" prefWidth="42.0">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Rectangle%2015%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="502.0" layoutY="89.0" mnemonicParsing="false" onAction="#creer3" prefHeight="34.0" prefWidth="34.0">
+         <graphic>
+            <ImageView fitHeight="46.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Polygon%201%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="39.0" layoutY="300.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Button layoutX="844.0" layoutY="91.0" mnemonicParsing="false" onAction="#creer10" prefHeight="50.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%20(9).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="retour" layoutX="57.0" mnemonicParsing="false" onAction="#home" prefHeight="30.0" prefWidth="30.0">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="213.0" layoutY="-4.0" mnemonicParsing="false" onAction="#BIB" prefHeight="38.0" prefWidth="49.0">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/bib.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="663.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Formes" wrappingWidth="50.99999999999994">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5e5e5" height="87.0" layoutX="984.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="317.0" />
+      <Button fx:id="OR" layoutX="993.0" layoutY="92.0" mnemonicParsing="false" onAction="#OR" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/or.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="AND" layoutX="1076.0" layoutY="92.0" mnemonicParsing="false" onAction="#AND" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%202%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="NOT" layoutX="1144.0" layoutY="92.0" mnemonicParsing="false" onAction="#NOT" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%203%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="XOR" layoutX="1218.0" layoutY="94.0" mnemonicParsing="false" onAction="#XOR" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/xor.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="1005.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Union" />
+      <Text layoutX="1066.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intersection" />
+      <Text layoutX="1144.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Différence" />
+      <Text layoutX="1222.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exclusion" />
+      <Text layoutX="1056.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opérations booléennes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="1286.0" layoutY="-1.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="30.0" AnchorPane.rightAnchor="9.237055564881302E-14" AnchorPane.topAnchor="-1.0">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%20(6).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="1196.4" layoutY="-2.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="41.0" AnchorPane.rightAnchor="82.0" AnchorPane.topAnchor="-2.0">
+         <graphic>
+            <ImageView fitHeight="5.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Group2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="237.28359374999928" layoutY="106.05078125" strokeType="OUTSIDE" strokeWidth="0.0" text="Déplacer" />
+      <Button fx:id="dep" layoutX="236.0000000000001" layoutY="48.0" mnemonicParsing="false" onAction="#dep" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/deplacer.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="rotation" layoutX="176.0" layoutY="49.0" mnemonicParsing="false" onAction="#rotation" prefHeight="30.0" prefWidth="30.0">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Vector%20(3).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="178.63203125000143" layoutY="106.05078125" strokeType="OUTSIDE" strokeWidth="0.0" text="Tourner" />
+      <Text layoutX="74.37539062499928" layoutY="105.05078125" strokeType="OUTSIDE" strokeWidth="0.0" text="Copier" />
+      <Button fx:id="copier" layoutX="67.00000000000009" layoutY="47.0" mnemonicParsing="false" onAction="#copier" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Upload%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="12.57294921875146" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coller">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="coller" layoutX="4.000000000000085" layoutY="47.0" mnemonicParsing="false" onAction="#coller" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/Upload.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text layoutX="675.0" layoutY="-300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nombre de cote" wrappingWidth="84.4921875" />
+      <TextField layoutX="802.0" layoutY="-315.0" />
+      <Text layoutX="661.0" layoutY="-209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coordone du premier point:" wrappingWidth="160.79998779296875" />
+      <Text layoutX="660.0" layoutY="-162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" wrappingWidth="11.692203521728516" />
+      <TextField layoutX="683.0" layoutY="-180.0" />
+      <Text layoutX="847.0" layoutY="-163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y" wrappingWidth="11.692203521728516" />
+      <TextField layoutX="873.0" layoutY="-181.0" />
+      <Button layoutX="838.0" layoutY="-94.0" mnemonicParsing="false" text="Entrer" />
+      <SubScene fx:id="b" fill="WHITE" height="570.0" layoutX="167.0" layoutY="201.0" width="1274.0" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="167.0" AnchorPane.rightAnchor="-41.0" AnchorPane.topAnchor="201.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+      <Button fx:id="Polygone_scr" layoutX="175.0" layoutY="202.0" mnemonicParsing="false" onAction="#Polygone_scr" prefHeight="34.0" prefWidth="73.0" text="Polygone" textFill="#da0a0a" AnchorPane.leftAnchor="175.0" AnchorPane.topAnchor="202.0" />
+      <Button fx:id="help" layoutX="275.0" mnemonicParsing="false" onAction="#helpp" prefHeight="34.0" prefWidth="41.0" text="Help" AnchorPane.leftAnchor="275.0" AnchorPane.topAnchor="0.0" />
+      <Circle fill="#282727" layoutX="59.0" layoutY="320.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="85.0" layoutY="300.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#fcfbfa" layoutX="105.0" layoutY="320.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="39.0" layoutY="344.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#bfbdbb" layoutX="59.0" layoutY="364.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="85.0" layoutY="344.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#197607" layoutX="105.0" layoutY="364.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="39.0" layoutY="388.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#1521a4" layoutX="59.0" layoutY="408.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="85.0" layoutY="388.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#18c12b" layoutX="105.0" layoutY="408.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="40.0" layoutY="432.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#c1c5f4" layoutX="60.0" layoutY="452.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="85.0" layoutY="432.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#0fff00" layoutX="105.0" layoutY="452.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="41.0" layoutY="476.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#cf6eb3" layoutX="60.0" layoutY="496.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="85.0" layoutY="476.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#f9ff00" layoutX="105.0" layoutY="496.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="42.0" layoutY="520.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#ff009b" layoutX="63.0" layoutY="539.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="86.0" layoutY="520.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#edd71f" layoutX="106.0" layoutY="539.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="43.0" layoutY="564.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#b70b69" layoutX="63.0" layoutY="583.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="86.0" layoutY="564.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#ff8a00" layoutX="106.0" layoutY="584.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="43.0" layoutY="608.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#ef2f04" layoutX="62.0" layoutY="628.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="86.0" layoutY="608.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Circle fill="#864b06" layoutX="106.0" layoutY="629.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <ColorPicker fx:id="Color" layoutX="43.0" layoutY="652.0" onAction="#colorer2" prefHeight="30.0" prefWidth="84.0" />
+      <Button fx:id="rectangle" layoutX="175.0" layoutY="239.0" mnemonicParsing="false" onAction="#rectangle" prefHeight="30.0" prefWidth="73.0" text="Rectangle" textFill="#d31515" />
+      <Button layoutX="56.0" layoutY="698.0" mnemonicParsing="false" onAction="#colorere" text="Colorer" textFill="#eb0c0c" />
+      <Button fx:id="select" layoutX="297.0" layoutY="48.0" mnemonicParsing="false" onAction="#select" prefHeight="16.0" prefWidth="51.0" textFill="#1fe00b">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/select.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Slider blockIncrement="5.0" layoutX="171.0" layoutY="773.0" majorTickUnit="5.0" minorTickCount="5" prefHeight="26.0" prefWidth="1227.0" showTickLabels="true" showTickMarks="true" stylesheets="@application.css" />
+      <Slider blockIncrement="5.0" layoutX="140.0" layoutY="200.0" majorTickUnit="5.0" minorTickCount="5" nodeOrientation="RIGHT_TO_LEFT" orientation="VERTICAL" prefHeight="571.0" prefWidth="34.0" showTickLabels="true" showTickMarks="true" stylesheets="@application.css" />
+      <MenuBar layoutX="-7.0" layoutY="9.0" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: transparent;">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#ouvrir" text="Ouvrir" />
+                  <MenuItem mnemonicParsing="false" onAction="#save" text="Enregistrer" />
+                  <MenuItem mnemonicParsing="false" onAction="#home" text="Accueil" />
+                  
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Fermer" />
+              
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="Crayon" layoutX="365.0" layoutY="48.0" mnemonicParsing="false" onAction="#Crayon" prefHeight="43.0" prefWidth="48.0">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pnga/crayonn.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="couper" layoutX="124.0" layoutY="48.0" mnemonicParsing="false" onAction="#couper" prefHeight="42.0" prefWidth="43.0" />
+      <Text layoutX="127.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Couper" />
+      <Text layoutX="293.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selectionner" />
+      <ImageView fitHeight="26.0" fitWidth="33.0" layoutX="129.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../pnga/ciseaux.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="371.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crayon" />
+   </children>
+</AnchorPane>
